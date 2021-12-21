@@ -8,7 +8,7 @@
 		"dev": "concurrently \"yarn start\""
 	},
 	"keywords": [],
-	"author": "",
+	"author": "Pouya Rezvani",
 	"license": "ISC",
 	"dependencies": {
 		"concurrently": "^6.5.1",

@@ -18,7 +18,6 @@ app.use( process.env.GRAPHQL_PATH, graphqlHTTP( (
 	graphQLParams
 ) => ( {
 	schema  : schema,
-	// rootValue: root,
 	graphiql: true
 } ) ) );
 
