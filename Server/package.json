@@ -11,14 +11,18 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
+		"concurrently": "^6.5.1",
+		"config": "^3.3.6",
 		"dotenv": "^10.0.0",
 		"express": "^4.17.2",
 		"express-graphql": "^0.10.0",
 		"graphql": "^16.2.0",
 		"lodash": "^4.17.21",
+		"mongoose": "^6.1.2",
 		"nodemon": "^2.0.15"
 	},
 	"devDependencies": {
+		"@types/config": "0.0.40",
 		"@types/express": "^4.16.1",
 		"@types/lodash": "^4.14.178",
 		"@types/node": "^17.0.0",
