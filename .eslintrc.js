@@ -1,22 +1,22 @@
 module.exports = {
-	'env': {
-		'browser': true,
-		'es2021' : true,
-		'node'   : true
+	env: {
+		browser: true,
+		es2021 : true,
+		node   : true
 	},
-	'extends': [
+	extends: [
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended'
 	],
-	'parser'       : '@typescript-eslint/parser',
-	'parserOptions': {
-		'ecmaVersion': 13,
-		'sourceType' : 'module'
+	parser       : '@typescript-eslint/parser',
+	parserOptions: {
+		ecmaVersion: 13,
+		sourceType : 'module'
 	},
-	'plugins': [
+	plugins: [
 		'@typescript-eslint'
 	],
-	'rules': {
+	rules: {
 		'key-spacing'                                      : [ 'warn', { align: 'colon' } ],
 		'no-unused-vars'                                   : 'off',
 		'object-curly-spacing'                             : [ 'warn', 'always' ],
